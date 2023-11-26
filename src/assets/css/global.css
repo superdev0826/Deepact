@@ -1,0 +1,52 @@
+.mapboxgl-popup {
+  width: 350px;
+  max-width: 350px !important;
+}
+.mapboxgl-popup-close-button {
+  padding: 4px;
+  font-size: 24px;
+}
+
+body {
+  background: #f7f9fd;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold"),
+    url("/assets/fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: local("Gilroy-Semibold"),
+    url("/assets/fonts/Gilroy-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: local("Gilroy-Medium"),
+    url("/assets/fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #63acf3;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4099f1;
+}
